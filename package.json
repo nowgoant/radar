@@ -4,7 +4,8 @@
   "description": "radar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,6 @@
   },
   "homepage": "https://github.com/nowgoant/radar#readme",
   "devDependencies": {
-    "flow": "^0.2.3"
+    "flow-bin": "^0.65.0"
   }
 }
